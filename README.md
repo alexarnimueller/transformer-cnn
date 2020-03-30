@@ -62,13 +62,13 @@ In this case, the program produces 26 random SMILES (number of non-hydrogens ato
 2. the file map.txt contains a gnuplot script to visualize the individual atoms' contributions.
 3. the file mol.svg contains a drawing of the molecule with atoms' contributions.
 
-For haloperidol molecule the outpus should be:
+For Remdesivir, the output should be:
 
-Solubility = 0.014 ± 0.002 g/L (experimental value 14 mg/L).
+Solubility = 0.0525 +/- 0.0041 g/L.
 
 And visualization:
 
-![LRP graph](https://github.com/bigchem/transformer-cnn/blob/master/standalone/lrp/lrp.png)
+![LRP graph](https://github.com/alexarnimueller/transformer-cnn/blob/master/standalone/example.png)
 
 The green color contributes positively to the property. The higher the bar the more the impact of the corresponding atom. The red color works in the opposite direction.
 
